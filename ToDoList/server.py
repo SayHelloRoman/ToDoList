@@ -25,12 +25,12 @@ async def create_task_post(title_input: str = Form(...), description: str = Form
 
 @app.get("/tasks", response_class=HTMLResponse)
 @app.post("/tasks", response_class=HTMLResponse)
-async def create_task_get(request: Request):
+async def tasks(request: Request):
     return templates.TemplateResponse("tasks.html", {"request": request, "tasks": await Task.filter().all()})
 
 
 @app.post("/delete/{id}", response_class=RedirectResponse)
-async def create_task_get(request: Request, id: int):
+async def delete(request: Request, id: int):
     await Task.filter(id=id).delete()
     return RedirectResponse(url='/tasks')
 
