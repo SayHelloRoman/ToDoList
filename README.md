@@ -15,5 +15,5 @@
 
 ## Скрины
 
-[добавить](https://cdn.discordapp.com/attachments/753623971378757644/848209385964699658/unknown.png)
-[задачи](https://cdn.discordapp.com/attachments/753623971378757644/848209457472864317/unknown.png)
+![добавить](https://cdn.discordapp.com/attachments/753623971378757644/848209385964699658/unknown.png)
+![задачи](https://cdn.discordapp.com/attachments/753623971378757644/848209457472864317/unknown.png)
