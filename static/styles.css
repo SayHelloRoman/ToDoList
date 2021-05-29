@@ -1,0 +1,88 @@
+.main {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.title_input {
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid red;
+    margin: 30px;
+}
+
+.title_input:focus {
+    border: none;
+}
+
+textarea {
+    font-size: 25px;
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+  
+.button_add {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 40px;
+}
+
+.button_add:hover {
+    background-color: gray;
+    color: white;
+}
+
+.button_add:active {
+    color: white;
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.task {
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.title_task {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-family: Impact;
+    font-size: 40px;
+}
+
+.description_task {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.del {
+    margin-top: 35px;
+}
+
+.del_button {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+    background-color: white;
+}
+
+.del_button:hover {
+    background-color: orangered;
+}
+
+.del_button:active {
+    background-color: red;
+}

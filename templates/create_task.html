@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+        <title>Todo list</title>
+    </head>
+    <body>
+        <div class="main">
+            <form action="/create_task" method="post">
+                <input class="title_input" name="title_input"></input>
+                <br></br>
+                <textarea class="description" name="description"></textarea>
+                <br></br>
+                <button class="button_add">Добавить задачу</button>
+            </form>
+        </div>
+    </body>
+</html>

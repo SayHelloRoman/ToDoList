@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+        <title>Todo list</title>
+    </head>
+    <body>
+        {% for task in tasks %}
+            <div class="task">
+                <div style="display: flex;justify-content:space-between;">
+                    <p class="title_task">{{ task.title }}</p>
+                    <form action="/delete/{{ task.id }}" class="del" method="post">
+                        <button class="del_button">❌</button>
+                    </form>
+                </div>
+                <p class="description_task">{{ task.description }}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>
